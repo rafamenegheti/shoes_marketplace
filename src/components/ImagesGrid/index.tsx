@@ -61,4 +61,6 @@ export function ImagesGrid() {
         )
     }
 
+    return <div>Carregando grid...</div>
+
 }
