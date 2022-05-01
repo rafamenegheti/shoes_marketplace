@@ -15,7 +15,7 @@ export function Dropdown() {
             {
                 titles.map(title => {
                     return (
-                        <Drop>
+                        <Drop key={title}>
                             <Name>
                                 {title}
                             </Name>
