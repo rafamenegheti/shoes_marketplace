@@ -49,11 +49,11 @@ export function ImagesGrid() {
             <Container altura={windowSize.width}>
                 {(windowSize.width && windowSize.widthS) &&
                     <>
-                        <Image src="/imgs/grid/grid1.jpg" altura={windowSize.width} />
-                        <Image src="/imgs/grid/grid2.jpg" altura={windowSize.width} />
+                        <Image alt={""} src="/imgs/grid/grid1.jpg" altura={windowSize.width} />
+                        <Image alt={""} src="/imgs/grid/grid2.jpg" altura={windowSize.width} />
                         <DoubleImage>
-                            <Image2 src="/imgs/grid/grid3.jpg" altura={windowSize.widthS} />
-                            <Image2 src="/imgs/grid/grid4.jpg" altura={windowSize.widthS} />
+                            <Image2 alt={""} src="/imgs/grid/grid3.jpg" altura={windowSize.widthS} />
+                            <Image2 alt={""} src="/imgs/grid/grid4.jpg" altura={windowSize.widthS} />
                         </DoubleImage>
                     </>
                 }

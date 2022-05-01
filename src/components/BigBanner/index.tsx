@@ -13,6 +13,7 @@ export function BigBanner() {
                 objectFit={'contain'}
             /> */}
             <Imagem 
+                alt={""}
                 src="/imgs/banner.jpg"
             />
         </Container>

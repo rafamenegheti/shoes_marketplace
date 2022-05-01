@@ -36,6 +36,7 @@ export function Header() {
             <MiddleImages>
                 <Image
                     src={"/imgs/logo-sandro.png"}
+                    alt={""}
                     layout={"fixed"}
                     height={"46"}
                     width={"263"}
